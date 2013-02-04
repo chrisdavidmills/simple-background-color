@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colours in CSS</title>
+  <style>
+  
+  html {
+    background: url(bg.png);
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  
+  body {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  p {
+    color: white;
+    text-shadow: 0 1px 1px black;
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+  
+  div {
+    height: 75px;
+    float: left;
+    width: 32%;
+    margin-right: 1%;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  h2 {
+    clear: both;
+    padding-top: 1.5rem;
+  }
+  
+  #c1 {
+    background-color: red;
+  }
+  
+  #c2 {
+    background-color: green;
+  }
+  
+  #c3 {
+    background-color: blue;
+  }
+  
+  #c4 {
+    background-color: #ff0000;
+  }
+  
+  #c5 {
+    background-color: #00ff00;
+  }
+  
+  #c6 {
+    background-color: #0000ff;
+  }
+  
+  #c7 {
+    background-color: rgb(255,0,0);
+  }
+  
+  #c8 {
+    background-color: rgb(0,255,0);
+  }
+  
+  #c9 {
+    background-color: rgb(0,0,255);
+  }
+  
+  #c10 {
+    background-color: rgba(255,0,0,1);
+  }
+  
+  #c11 {
+    background-color: rgba(255,0,0,0.75);
+  }
+  
+  #c12 {
+    background-color: rgba(255,0,0,0.5);
+  }
+  
+  #c13 {
+    background-color: hsl(0,100%,50%);
+  }
+  
+  #c14 {
+    background-color: hsl(0,100%,60%);
+  }
+  
+  #c15 {
+    background-color: hsl(0,100%,70%);
+  }
+  
+  #c16 {
+    background-color: hsla(0,100%,50%,0.9);
+  }
+  
+  #c17 {
+    background-color: hsla(0,100%,50%,0.75);
+  }
+  
+  #c18 {
+    background-color: hsla(0,100%,50%,0.5);
+  }
+  
+  #c19 {
+    background-color: rgb(255,0,0);
+    opacity: 0.9;
+  }
+  
+  #c20 {
+    background-color: rgb(255,0,0);
+    opacity: 0.75;
+  }
+  
+  #c21 {
+    background-color: rgb(255,0,0);
+    opacity: 0.5;
+  }
+  
+  </style>
+</head>
+<body>
+  <h1>background-color values in CSS</h1>
+
+  <h2>Keywords</h2>
+  
+  <div id="c1">
+  <p><code>background-color: red;</code></p>
+  </div>
+  
+  <div id="c2">
+  <p><code>background-color: green;</code></p>
+  </div>
+  
+  <div id="c3">
+  <p><code>background-color: blue;</code></p>
+  </div>
+  
+  <h2>Hex values</h2>
+  
+  <div id="c4">
+  <p><code>background-color: #ff0000;</code></p>
+  </div>
+  
+  <div id="c5">
+  <p><code>background-color: #00ff00;</code></p>
+  </div>
+  
+  <div id="c6">
+  <p><code>background-color: #0000ff;</code></p>
+  </div>
+  
+  <h2>RGB</h2>
+  
+  <div id="c7">
+  <p><code>background-color: rgb(255,0,0);</code></p>
+  </div>
+  
+  <div id="c8">
+  <p><code>background-color: rgb(0,255,0);</code></p>
+  </div>
+  
+  <div id="c9">
+  <p><code>background-color: rgb(0,0,255);</code></p>
+  </div>
+  
+  <h2>RGBa</h2>
+  
+  <div id="c10">
+  <p><code>background-color: rgba(255,0,0,1);</code></p>
+  </div>
+  
+  <div id="c11">
+  <p><code>background-color: rgba(255,0,0,0.75);</code></p>
+  </div>
+  
+  <div id="c12">
+  <p><code>background-color: rgba(255,0,0,0.5);</code></p>
+  </div>
+  
+  <h2>HSL</h2>
+  
+  <div id="c13">
+  <p><code>background-color: hsl(0,100%,50%);</code></p>
+  </div>
+  
+  <div id="c14">
+  <p><code>background-color: hsl(0,100%,60%);</code></p>
+  </div>
+  
+  <div id="c15">
+  <p><code>background-color: hsl(0,100%,70%);</code></p>
+  </div>
+  
+  <h2>HSLa</h2>
+  
+  <div id="c16">
+  <p><code>background-color: hsla(0,100%,50%,0.9);</code></p>
+  </div>
+  
+  <div id="c17">
+  <p><code>background-color: hsla(0,100%,50%,0.75);</code></p>
+  </div>
+  
+  <div id="c18">
+  <p><code>background-color: hsla(0,100%,50%,0.5);</code></p>
+  </div>
+  
+  <h2>The <code>opacity</code> property</h2>
+  
+  <div id="c19">
+  <p>background-color: rgb(255,0,0);<br>
+     opacity: 0.9;</p>
+  </div>
+  
+  <div id="c20">
+  <p>background-color: rgb(255,0,0);<br>
+     opacity: 0.75;</p>
+  </div>
+  
+  <div id="c21">
+  <p>background-color: rgb(255,0,0);<br>
+     opacity: 0.5;</p>
+  </div>
+  
+</body>
+</html>
